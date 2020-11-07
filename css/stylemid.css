@@ -1,11 +1,11 @@
 img{
     max-width: 100%;
 }
-.col-md-3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/*.col-md-3{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
 #mainPage{
     width: 100%;
     height: auto;
@@ -137,15 +137,31 @@ footer a{
     background-color:#282828;
 }
 
-#rows{
-	width:30%;
-}
-
-.courses img{
+.courses .courses-img{
     width: 23%;
     height: auto;
     transition: 1s;
     margin: 5px;
+}
+
+.courses .course-card {
+    position: relative;
+}
+
+.courses .course-card img {
+    /*position: absolute;*/
+    width: 100%;
+    transition: 1s;
+    height: 100%;
+}
+
+.courses .course-card select {
+    display: block;
+    margin: 20px auto;
+}
+
+#rows{
+	width:30%;
 }
 
 .courses img:hover{
